@@ -1,0 +1,32 @@
+<!-- This is a comment. We humans can read it but the dumb computer can't :D -->
+<!-- If you opened this file in Visual Studio Code, comments will be green. -->
+<!-- To easily comment or uncomment, press ctrl + "/"" on your keyboard. -->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- This is the title you see in the browser tab -->
+    <title>Level 1: Let's learn about comments!</title>
+  </head>
+  <body>
+    <!-- This is a heading tag -->
+    <h1>Welcome to level 1!</h1>
+    <!-- This is a paragraph tag -->
+    <p>In this level, you will learn about comments.</p>
+    <!-- This is also a paragraph tag but I've given it the name "password" -->
+    <p id="password">UGFzc3dvcmQ6IHJhbWJv</p>
+    <!-- Here's the interesting part! Everything in the script tag is the code. It's the brains of the website 😎 -->
+    <script>
+      // This is also a comment but you might've noticed we use a "//" to declare it as a comment instead of "<!--".
+      // This is because everything in the script tag is Javascript, but more on that later!
+      
+      // That's enough explaining, let's just say everything below here is magic. Uncomment the secret line to reveal the password. Good luck!
+      const encodedPassword = document.getElementById('password').textContent;
+      // Uncomment me to win!
+      // No me!
+      // hackercode23.revealSecret()
+      // Alexa, what's the password?
+      // document.getElementById('password').innerText = atob(encodedPassword);
+    </script>
+  </body>
+</html>
